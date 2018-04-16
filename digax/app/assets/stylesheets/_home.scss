@@ -19,13 +19,23 @@ a{
   justify-content: center;
 }
 
+.blob{
+  position: absolute;
+  float: right;
+}
+
 .all-content{
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   padding: 0;
-  margin: 0;
+  margin: 5%;
+}
+
+.all-text{
+  height: 90%;
+
 }
 
 .title{
@@ -39,7 +49,21 @@ a{
 
 .description{
   color: white;
-  width: 60%
+  width: 60%;
+}
+
+.btn-medium {
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
 }
 
 .laptop{

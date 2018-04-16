@@ -1,7 +1,6 @@
 nav ul{
     list-style: none;
     padding:0;
-    background: #20252D;
     text-decoration: none;
 }
 
@@ -9,6 +8,7 @@ a:hover{
   text-decoration: none;
   color: #ffc743;
 }
+
 nav ul li a{
     color:#ddd;
     text-decoration: none;
@@ -20,7 +20,7 @@ nav ul li a{
 /*styling logo*/
 
 nav div:first-child{
-    background: #20252D;
+
 }
 nav div:first-child h1{
     line-height: 0;
@@ -39,7 +39,7 @@ nav div:first-child h1, nav ul{
   nav{
       display: flex;
       justify-content: space-between;
-      background: #20252D;
+      background: none;
       align-items: center;
       text-decoration: none;
   }
